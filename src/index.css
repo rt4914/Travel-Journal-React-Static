@@ -9,9 +9,29 @@ body {
     sans-serif;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
+  background-color: white;
 }
 
-code {
-  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
-    monospace;
+nav {
+  height: 55px;
+  background-color: #F55A5A;
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  gap: 8px;
+  align-items: center;
+}
+
+.nav--world-icon {
+  width: 24px;
+  height: 24px;
+}
+
+.nav--title {
+  font-size: 14.4608px;
+  line-height: 18px;
+  font-weight: 500;
+  letter-spacing: -0.075em;
+  color: white;
+  text-align: center;
 }
